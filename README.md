@@ -34,7 +34,7 @@ Start by connecting Azure CLI to the Azure subscription you want to use for depl
 az login
 ```
 
-You can view the resources that will be created:
+You can view the resources to be deployed:
 
 ```
 terraform plan
@@ -51,3 +51,7 @@ To delete the deployed resources:
 ```
 terraform destroy
 ```
+
+---
+
+:information_source: **Note:** *For simplicity's sake VM passwords have been defined in the ```variables.tf``` file, but in production you want to [protect your sensitive variables](https://developer.hashicorp.com/terraform/tutorials/configuration-language/sensitive-variables).*
