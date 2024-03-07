@@ -4,7 +4,7 @@
   <img src="https://github.com/pathei-kosmos/tf-lab-04/blob/master/lab-04.png" alt="Lab infrastructure diagram" />
 </p>
 
-[Terraform](https://www.terraform.io/) automated deployment inspired by the former [AZ-104 Git Lab 04](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_04-Implement_Virtual_Networking.html).
+[Terraform](https://www.terraform.io/) automated deployment on [Microsoft Azure](https://azure.microsoft.com/en-us) inspired by the former [AZ-104 Git Lab 04](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_04-Implement_Virtual_Networking.html).
 
 # Requirements
 
