@@ -54,4 +54,4 @@ terraform destroy
 
 ---
 
-:information_source: **Note:** *For simplicity's sake VM passwords have been defined in the ```variables.tf``` file, but in production you want to [protect your sensitive variables](https://developer.hashicorp.com/terraform/tutorials/configuration-language/sensitive-variables).*
+:information_source: **Note:** *For simplicity's sake VMs passwords have been defined in the ```variables.tf``` file, but in production you want to [protect your sensitive variables](https://developer.hashicorp.com/terraform/tutorials/configuration-language/sensitive-variables).*
