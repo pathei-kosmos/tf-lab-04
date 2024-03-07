@@ -1,4 +1,4 @@
-# :microscope: TF-LAB-04
+# :microscope: TF-Lab-04
 
 <p align="center">
   <img src="https://github.com/pathei-kosmos/tf-lab-04/blob/master/lab-04.png" alt="Lab infrastructure diagram" />
@@ -13,7 +13,7 @@
 
 # Setup
 
-Clone the repo and install the dependencies.
+Clone the repo:
 
 ```
 git clone https://github.com/pathei-kosmos/tf-lab-104.git
