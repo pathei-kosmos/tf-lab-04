@@ -16,7 +16,7 @@
 Clone the repo:
 
 ```
-git clone https://github.com/pathei-kosmos/tf-lab-104.git
+git clone https://github.com/pathei-kosmos/tf-lab-04.git
 cd tf-lab-104
 ```
 
@@ -54,4 +54,6 @@ terraform destroy
 
 ---
 
-:information_source: **Note:** *For simplicity's sake VMs passwords have been defined in the ```variables.tf``` file, but in production you want to [protect your sensitive variables](https://developer.hashicorp.com/terraform/tutorials/configuration-language/sensitive-variables).*
+:information_source: **Note:** *Since [the VMs password variable is protected](https://developer.hashicorp.com/terraform/tutorials/configuration-language/sensitive-variables), Terraform will prompt you for its value during each operation. Create a ```.tfvars``` file [to set its default value](https://developer.hashicorp.com/terraform/tutorials/configuration-language/sensitive-variables#set-values-with-a-tfvars-file).*
+
+*For simplicity's sake VMs passwords have been defined in the ```variables.tf``` file, but in production you want to [protect your sensitive variables](https://developer.hashicorp.com/terraform/tutorials/configuration-language/sensitive-variables).*

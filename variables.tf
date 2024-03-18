@@ -14,7 +14,6 @@ variable "vm-size" {
 }
 
 variable "vm-password" {
-  default   = "X$Z1cAmx1F6v"
   type      = string
   sensitive = true
 }
